@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /cgi-bin/
+Disallow: /wp-admin/
+Disallow: /feed/
+Disallow: /author/
+Disallow: /tag/
+
+# Sitemap
+Sitemap: https://plumbing.six7.lk/sitemap.xml
+
+# Crawl-delay for politeness
+Crawl-delay: 1
