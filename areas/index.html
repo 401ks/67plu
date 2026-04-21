@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Plumbing Service Areas Colombo & Outskirts – 24/7 Coverage | Six7 Plumbing</title>
+  <meta name="description" content="Serving Colombo 1-15, Kotte, Battaramulla, Maharagama, Homagama & more. Transparent callout fees apply. Avg. 38-min arrival. WhatsApp to check coverage & ETA.">
+  <meta name="keywords" content="plumber near me colombo, plumbing service areas western province, emergency plumber battaramulla, colombo suburbs plumber coverage, six7 plumbing areas">
+  <link rel="canonical" href="https://plumbing.six7.lk/areas/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Where We Serve – Full Plumbing Coverage in Colombo & Outskirts">
+  <meta property="og:description" content="24/7 emergency plumbing across Colombo, Kotte, Battaramulla & more. Transparent callout fees. Fast ETAs. WhatsApp to check your area.">
+  <meta property="og:url" content="https://plumbing.six7.lk/areas/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://plumbing.six7.lk/assets/img/og-areas.jpg">
+
+  <!-- Tailwind + Fonts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-secondary-fixed": "#410003",
+            "on-secondary": "#ffffff",
+            "surface-container-low": "#e6f6ff",
+            "inverse-on-surface": "#dff4ff",
+            "tertiary": "#003567",
+            "primary": "#003178",
+            "outline-variant": "#c3c6d4",
+            "on-primary": "#ffffff",
+            "on-error": "#ffffff",
+            "on-secondary-container": "#fffbff",
+            "tertiary-container": "#004c8e",
+            "error-container": "#ffdad6",
+            "tertiary-fixed": "#d4e3ff",
+            "inverse-primary": "#b0c6ff",
+            "surface-container-high": "#d5ecf8",
+            "surface-tint": "#2b5bb5",
+            "on-background": "#071e27",
+            "surface-bright": "#f3faff",
+            "surface": "#f3faff",
+            "on-primary-fixed": "#001945",
+            "on-secondary-fixed-variant": "#930010",
+            "on-surface-variant": "#434652",
+            "secondary-container": "#da3433",
+            "on-tertiary": "#ffffff",
+            "surface-variant": "#cfe6f2",
+            "primary-fixed-dim": "#b0c6ff",
+            "on-primary-fixed-variant": "#00429c",
+            "secondary": "#b6171e",
+            "on-tertiary-fixed-variant": "#004786",
+            "surface-container-highest": "#cfe6f2",
+            "outline": "#737783",
+            "inverse-surface": "#1e333c",
+            "on-tertiary-container": "#93beff",
+            "secondary-fixed": "#ffdad6",
+            "on-primary-container": "#a1bbff",
+            "background": "#f3faff",
+            "surface-dim": "#c7dde9",
+            "surface-container": "#dbf1fe",
+            "tertiary-fixed-dim": "#a5c8ff",
+            "secondary-fixed-dim": "#ffb3ac",
+            "primary-fixed": "#d9e2ff",
+            "error": "#ba1a1a",
+            "surface-container-lowest": "#ffffff",
+            "on-error-container": "#93000a",
+            "on-surface": "#071e27",
+            "on-tertiary-fixed": "#001c3a",
+            "primary-container": "#0d47a1"
+          },
+          borderRadius: {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          fontFamily: {
+            "headline": ["Work Sans"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .glass-nav { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .payment-reminder {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+      background: #0f172a; color: white; padding: 0.75rem 1.5rem;
+      font-size: 0.9rem; display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; box-shadow: 0 4px 6px -2px rgba(0,0,0,0.1);
+      border-bottom: 2px solid #b6171e;
+    }
+    .dismiss-btn { background: #b6171e; padding: 0.2rem 1rem; border-radius: 2rem; cursor: pointer; color: white; font-weight: bold; border: none; }
+    body { padding-top: 40px; }
+    .sticky-bottom-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
+      background: white; border-top: 1px solid #cbd5e1; display: flex;
+      padding-bottom: env(safe-area-inset-bottom);
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+    }
+    .sticky-bottom-bar a {
+      flex: 1; text-align: center; padding: 14px 0; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    @media (min-width: 768px) { .sticky-bottom-bar { display: none; } body { padding-top: 0; } .payment-reminder { position: relative; top: 0; } }
+    /* Horizontal scroll for ETA cards */
+    .scroll-snap-x {
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+    }
+    .scroll-snap-x > * {
+      scroll-snap-align: start;
+    }
+  </style>
+</head>
+
+<body class="bg-surface font-body text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+<!-- A. STICKY PAYMENT DISCLAIMER -->
+<div class="payment-reminder" id="paymentReminder">
+  <span><i class="fas fa-exclamation-triangle mr-2 text-secondary"></i> REMINDER: You pay for what gets done - not what you assumed. Post-job price complaints = no refund, no future service.</span>
+  <button class="dismiss-btn" onclick="document.getElementById('paymentReminder').style.display='none'; localStorage.setItem('paymentDismissed','1')"><i class="fas fa-times mr-1"></i> Dismiss</button>
+</div>
+<script>
+  if (localStorage.getItem('paymentDismissed') === '1') {
+    document.getElementById('paymentReminder').style.display = 'none';
+  }
+</script>
+
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-blue-50/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-2xl shadow-blue-900/5" style="top: 0;">
+  <div class="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
+    <div class="text-2xl font-black tracking-tighter text-blue-900 dark:text-blue-50 font-headline uppercase">
+      SIX7 PLUMBING
+    </div>
+    <div class="hidden md:flex items-center space-x-8">
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/">Home</a>
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/services">Services</a>
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/about-us">About Us</a>
+      <a class="text-blue-900 dark:text-blue-100 border-b-2 border-blue-900 dark:border-blue-100 pb-1 font-work-sans tracking-tight uppercase" href="/areas">Areas</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <span class="hidden lg:block text-blue-800 dark:text-blue-400 font-bold font-work-sans uppercase">+94 75 824 4216</span>
+      <a href="https://wa.me/94758244216?text=COVERAGE%20CHECK%20Colombo" class="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold tracking-tight hover:bg-primary-container transition-all">
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-24">
+  <!-- HERO SECTION -->
+  <section class="px-6 py-16 lg:py-24 max-w-7xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+      <div class="lg:col-span-8">
+        <span class="inline-flex items-center gap-2 px-3 py-1 bg-secondary-fixed text-on-secondary-fixed-variant rounded-full text-xs font-bold tracking-widest uppercase mb-6">
+          <i class="fas fa-map-pin"></i> Dispatch Coverage Map
+        </span>
+        <h1 class="font-headline text-5xl md:text-6xl font-black text-on-surface tracking-tighter leading-[1.1] mb-6">
+          Plumbing Service Areas – Colombo & Western Province Coverage
+        </h1>
+        <p class="text-lg text-on-surface-variant mb-4">24/7 Emergency Response • Transparent Callout Fees • Avg. 38-Min Arrival • Serving 9+ Suburbs</p>
+        <p class="text-on-surface-variant max-w-xl leading-relaxed mb-6">
+          Not sure if we cover your street? Check our map or WhatsApp your location for instant ETA confirmation.
+        </p>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="https://wa.me/94758244216?text=COVERAGE%20CHECK%20Colombo" class="bg-secondary text-on-secondary px-8 py-4 rounded-xl text-lg font-black font-headline flex items-center justify-center gap-3 shadow-xl hover:scale-105 transition">
+            <i class="fab fa-whatsapp"></i> WhatsApp to Check Coverage
+          </a>
+          <a href="tel:+94758244216" class="bg-surface-container-highest text-primary px-8 py-4 rounded-xl text-lg font-bold hover:bg-surface-container-high transition flex items-center justify-center gap-2">
+            <i class="fas fa-phone-alt"></i> Call Dispatcher: +94 75 824 4216
+          </a>
+        </div>
+      </div>
+      <div class="lg:col-span-4">
+        <div class="bg-primary text-on-primary p-8 rounded-xl shadow-2xl">
+          <i class="fas fa-tachometer-alt text-3xl mb-3"></i>
+          <h3 class="font-headline font-extrabold text-2xl mb-2">Avg. 38-Min Arrival</h3>
+          <p class="text-sm opacity-90">Live dispatch tracking across all zones. WhatsApp for real-time ETA.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTERACTIVE GOOGLE MAP -->
+  <section class="px-6 max-w-7xl mx-auto pb-16">
+    <div class="bg-surface-container-lowest p-2 rounded-xl shadow-lg border border-outline-variant/30">
+      <iframe 
+        src="https://www.google.com/maps/place/6%C2%B049'53.7%22N+79%C2%B053'07.2%22E/@6.8315841,79.8853197,867m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d6.8315841!4d79.8853197?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D9" 
+        width="100%" 
+        height="450" 
+        style="border:0; border-radius: 0.75rem;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Six7 Plumbing Service Areas - Colombo & Western Province"
+        class="w-full">
+      </iframe>
+    </div>
+    <p class="text-xs text-outline mt-2 text-center"><i class="fas fa-map-marked-alt mr-1"></i> Interactive map showing our service zones across Colombo, Kotte, Battaramulla & surrounding suburbs. Pinch to zoom.</p>
+  </section>
+
+  <!-- SERVICE ZONES & SUBURB GRID -->
+  <section class="py-16 bg-surface-container-low">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="font-headline text-4xl font-black uppercase mb-10">Where We Dispatch Today</h2>
+      
+      <!-- Zone 1: Colombo Central -->
+      <div class="mb-12">
+        <h3 class="font-headline text-2xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-city text-primary"></i> Zone 1: Colombo Central</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+          <a href="/location/colombo-1" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 1</span><span class="block text-xs opacity-70 group-hover:opacity-90">Fort</span></a>
+          <a href="/location/colombo-2" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 2</span><span class="block text-xs opacity-70 group-hover:opacity-90">Slave Island</span></a>
+          <a href="/location/colombo-3" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 3</span><span class="block text-xs opacity-70 group-hover:opacity-90">Kollupitiya</span></a>
+          <a href="/location/colombo-4" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 4</span><span class="block text-xs opacity-70 group-hover:opacity-90">Bambalapitiya</span></a>
+          <a href="/location/colombo-5" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 5</span><span class="block text-xs opacity-70 group-hover:opacity-90">Havelock Town</span></a>
+          <a href="/location/colombo-6" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 6</span><span class="block text-xs opacity-70 group-hover:opacity-90">Wellawatte</span></a>
+          <a href="/location/colombo-7" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 7</span><span class="block text-xs opacity-70 group-hover:opacity-90">Cinnamon Gardens</span></a>
+          <a href="/location/colombo-8" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 8</span><span class="block text-xs opacity-70 group-hover:opacity-90">Borella</span></a>
+          <a href="/location/colombo-9" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 9</span><span class="block text-xs opacity-70 group-hover:opacity-90">Dematagoda</span></a>
+          <a href="/location/colombo-10" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 10</span><span class="block text-xs opacity-70 group-hover:opacity-90">Maradana</span></a>
+          <a href="/location/colombo-11" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 11</span><span class="block text-xs opacity-70 group-hover:opacity-90">Pettah</span></a>
+          <a href="/location/colombo-12" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 12</span><span class="block text-xs opacity-70 group-hover:opacity-90">Kotahena</span></a>
+          <a href="/location/colombo-13" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 13</span><span class="block text-xs opacity-70 group-hover:opacity-90">Bloemendhal</span></a>
+          <a href="/location/colombo-14" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 14</span><span class="block text-xs opacity-70 group-hover:opacity-90">Grandpass</span></a>
+          <a href="/location/colombo-15" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm group"><span class="font-bold">Colombo 15</span><span class="block text-xs opacity-70 group-hover:opacity-90">Modara/Mattakkuliya</span></a>
+        </div>
+      </div>
+
+      <!-- Zone 2: Kotte & Battaramulla Corridor -->
+      <div class="mb-12">
+        <h3 class="font-headline text-2xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-tree text-primary"></i> Zone 2: Kotte & Battaramulla Corridor</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3">
+          <a href="/location/kotte" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Kotte</span><span class="block text-xs opacity-70">~32 mins</span></a>
+          <a href="/location/battaramulla" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Battaramulla</span><span class="block text-xs opacity-70">~35 mins</span></a>
+          <a href="/location/nugegoda" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Nugegoda</span><span class="block text-xs opacity-70">~32 mins</span></a>
+          <a href="/location/rajagiriya" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Rajagiriya</span><span class="block text-xs opacity-70">~30 mins</span></a>
+          <a href="/location/pitakotte" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Pitakotte</span><span class="block text-xs opacity-70">~34 mins</span></a>
+        </div>
+      </div>
+
+      <!-- Zone 3: Southern Outskirts -->
+      <div class="mb-12">
+        <h3 class="font-headline text-2xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-sun text-primary"></i> Zone 3: Southern Outskirts</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <a href="/location/maharagama" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Maharagama</span><span class="block text-xs opacity-70">~38 mins</span></a>
+          <a href="/location/piliyandala" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Piliyandala</span><span class="block text-xs opacity-70">~42 mins</span></a>
+          <a href="/location/kohuwala" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Kohuwala</span><span class="block text-xs opacity-70">~35 mins</span></a>
+          <a href="/location/kottawa" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Kottawa</span><span class="block text-xs opacity-70">~40 mins</span></a>
+        </div>
+      </div>
+
+      <!-- Zone 4: Eastern Expansion -->
+      <div>
+        <h3 class="font-headline text-2xl font-bold mb-4 flex items-center gap-2"><i class="fas fa-mountain text-primary"></i> Zone 4: Eastern Expansion</h3>
+        <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3">
+          <a href="/location/homagama" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Homagama</span><span class="block text-xs opacity-70">~45 mins</span></a>
+          <a href="/location/kaduwela" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Kaduwela</span><span class="block text-xs opacity-70">~40 mins</span></a>
+          <a href="/location/pitipana" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Pitipana</span><span class="block text-xs opacity-70">~50 mins</span></a>
+          <a href="/location/boralesgamuwa" class="bg-surface-container-lowest hover:bg-primary hover:text-on-primary transition-colors px-4 py-3 rounded-lg text-center shadow-sm"><span class="font-bold">Boralesgamuwa</span><span class="block text-xs opacity-70">~40 mins</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CALLOUT FEE & BILLING TRANSPARENCY -->
+  <section class="py-16 px-6 max-w-7xl mx-auto">
+    <div class="bg-surface-container-highest p-8 md:p-12 rounded-xl">
+      <h2 class="font-headline text-3xl font-black uppercase mb-6">How Dispatch & Callout Fees Work</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="space-y-3 text-on-surface-variant">
+          <p><i class="fas fa-check-circle text-secondary mr-2"></i> <strong>Transparent pricing:</strong> Callout fee is clearly stated before dispatch</p>
+          <p><i class="fas fa-check-circle text-secondary mr-2"></i> <strong>Billed fairly:</strong> Absorbed into your first service hour or charged as a flat rate</p>
+          <p><i class="fas fa-check-circle text-secondary mr-2"></i> <strong>No surprises:</strong> Full work quote provided on-site before any repair begins</p>
+          <p><i class="fas fa-check-circle text-secondary mr-2"></i> <strong>Pay after service:</strong> You approve the final scope before we proceed</p>
+          <p class="mt-4">We believe in upfront honesty. No hidden charges, no post-job disputes.</p>
+        </div>
+        <div class="flex flex-col justify-center gap-4">
+          <a href="/pricing" class="bg-primary text-on-primary px-6 py-3 rounded-lg font-bold text-center"><i class="fas fa-file-invoice mr-2"></i> View Full Pricing Guide</a>
+          <a href="/disclaimer" class="border-2 border-primary text-primary px-6 py-3 rounded-lg font-bold text-center"><i class="fas fa-shield-alt mr-2"></i> Read Full Policy</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ESTIMATED RESPONSE TIMES BY ZONE -->
+  <section class="py-16 bg-surface-dim">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="font-headline text-3xl font-black uppercase mb-6">Emergency Arrival Times (Live Average)</h2>
+      <p class="text-sm text-on-surface-variant mb-6">Times vary based on traffic & current dispatch load. WhatsApp for real-time ETA.</p>
+      
+      <!-- Horizontal scroll on mobile -->
+      <div class="flex md:grid md:grid-cols-5 gap-4 overflow-x-auto scroll-snap-x pb-4 md:overflow-visible">
+        <div class="min-w-[160px] md:min-w-0 bg-surface-container-lowest p-5 rounded-xl shadow-sm">
+          <i class="fas fa-location-dot text-primary mb-2"></i>
+          <h4 class="font-bold">Colombo 1-10</h4>
+          <span class="text-2xl font-black text-primary">25–30</span><span class="text-sm"> mins</span>
+        </div>
+        <div class="min-w-[160px] md:min-w-0 bg-surface-container-lowest p-5 rounded-xl shadow-sm">
+          <i class="fas fa-location-dot text-primary mb-2"></i>
+          <h4 class="font-bold">Kotte / Battaramulla</h4>
+          <span class="text-2xl font-black text-primary">30–35</span><span class="text-sm"> mins</span>
+        </div>
+        <div class="min-w-[160px] md:min-w-0 bg-surface-container-lowest p-5 rounded-xl shadow-sm">
+          <i class="fas fa-location-dot text-primary mb-2"></i>
+          <h4 class="font-bold">Maharagama / Piliyandala</h4>
+          <span class="text-2xl font-black text-primary">35–45</span><span class="text-sm"> mins</span>
+        </div>
+        <div class="min-w-[160px] md:min-w-0 bg-surface-container-lowest p-5 rounded-xl shadow-sm">
+          <i class="fas fa-location-dot text-primary mb-2"></i>
+          <h4 class="font-bold">Homagama / Kaduwela</h4>
+          <span class="text-2xl font-black text-primary">40–50</span><span class="text-sm"> mins</span>
+        </div>
+        <div class="min-w-[160px] md:min-w-0 bg-surface-container-lowest p-5 rounded-xl shadow-sm">
+          <i class="fas fa-location-dot text-primary mb-2"></i>
+          <h4 class="font-bold">Pitipana / Boralesgamuwa</h4>
+          <span class="text-2xl font-black text-primary">45–55</span><span class="text-sm"> mins</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCALIZED SERVICE LINKS -->
+  <section class="py-16 px-6 max-w-7xl mx-auto">
+    <h2 class="font-headline text-3xl font-black uppercase mb-8">Common Services Requested in Your Area</h2>
+    <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
+      <a href="/services/leak-detection" class="bg-surface-container-lowest p-5 rounded-xl text-center hover:bg-primary hover:text-on-primary transition group">
+        <i class="fas fa-water text-2xl mb-2 text-secondary group-hover:text-on-primary"></i>
+        <span class="font-bold block">Leak Detection</span>
+      </a>
+      <a href="/services/leak-repair" class="bg-surface-container-lowest p-5 rounded-xl text-center hover:bg-primary hover:text-on-primary transition group">
+        <i class="fas fa-wrench text-2xl mb-2 text-secondary group-hover:text-on-primary"></i>
+        <span class="font-bold block">Burst Pipe Emergency</span>
+      </a>
+      <a href="/services/drain-cleaning" class="bg-surface-container-lowest p-5 rounded-xl text-center hover:bg-primary hover:text-on-primary transition group">
+        <i class="fas fa-toilet text-2xl mb-2 text-secondary group-hover:text-on-primary"></i>
+        <span class="font-bold block">Drain & Sewer Clear</span>
+      </a>
+      <a href="/services/water-heater-repair" class="bg-surface-container-lowest p-5 rounded-xl text-center hover:bg-primary hover:text-on-primary transition group">
+        <i class="fas fa-fire text-2xl mb-2 text-secondary group-hover:text-on-primary"></i>
+        <span class="font-bold block">Water Heater/Geyser</span>
+      </a>
+      <a href="/services/water-tank-repair" class="bg-surface-container-lowest p-5 rounded-xl text-center hover:bg-primary hover:text-on-primary transition group">
+        <i class="fas fa-warehouse text-2xl mb-2 text-secondary group-hover:text-on-primary"></i>
+        <span class="font-bold block">Tank & Pump Service</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- AREA INQUIRY FORM (Fallback) -->
+  <section class="py-16 px-6 max-w-3xl mx-auto">
+    <h2 class="font-headline text-2xl font-black uppercase text-center mb-6">Outside Listed Areas? Ask Us Directly</h2>
+    <form action="https://formsubmit.co/pforms@six7.lk" method="POST" class="bg-white p-8 rounded-xl shadow-lg space-y-5">
+      <input type="hidden" name="_subject" value="Area Coverage Inquiry">
+      <input type="hidden" name="_next" value="/thank-you">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="text" name="name" placeholder="Full Name *" required class="p-3 border rounded w-full">
+        <input type="tel" name="phone" placeholder="Phone/WhatsApp *" required class="p-3 border rounded w-full">
+      </div>
+      <input type="text" name="suburb" placeholder="Suburb / Nearest Landmark *" required class="p-3 border rounded w-full">
+      <select name="service_type" class="p-3 border rounded w-full">
+        <option>Emergency Repair</option><option>Leak Detection</option><option>Drain Cleaning</option><option>Installation</option><option>Just Checking Coverage</option>
+      </select>
+      <textarea name="message" placeholder="Additional details" rows="3" class="p-3 border rounded w-full"></textarea>
+      <div class="flex items-start gap-2">
+        <input type="checkbox" required id="agree" class="mt-1">
+        <label for="agree" class="text-sm">I agree to the <a href="/disclaimer" class="text-secondary font-bold">Pricing Policy & Zero-Tolerance Disclaimer</a></label>
+      </div>
+      <button class="w-full bg-primary text-on-primary py-4 rounded-lg font-black text-lg"><i class="fas fa-search-location mr-2"></i> CHECK COVERAGE</button>
+    </form>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-blue-900 dark:bg-slate-950 w-full py-12 text-white">
+  <div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-8">
+    <div class="font-work-sans font-black tracking-widest uppercase">SIX7 PLUMBING</div>
+    <div class="flex flex-wrap justify-center gap-6">
+      <a class="text-blue-200 hover:text-red-400" href="/">Home</a>
+      <a class="text-blue-200 hover:text-red-400" href="/services">Services</a>
+      <a class="text-blue-200 hover:text-red-400" href="/pricing">Pricing</a>
+      <a class="text-blue-200 hover:text-red-400" href="/areas">Areas</a>
+      <a class="text-blue-200 hover:text-red-400" href="/disclaimer">Disclaimer</a>
+    </div>
+    <div class="text-blue-200 text-sm opacity-80">© 2026 Six7 Plumbing. +94 75 824 4216 | plumbing@six7.lk</div>
+  </div>
+</footer>
+
+<!-- STICKY BOTTOM BAR (mobile) -->
+<div class="sticky-bottom-bar">
+  <a href="tel:+94758244216" class="bg-primary text-white"><i class="fas fa-phone-alt"></i> Call</a>
+  <a href="https://wa.me/94758244216?text=COVERAGE%20CHECK%20Colombo" class="bg-secondary text-white"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+</div>
+
+<!-- SCHEMA MARKUP -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Six7 Plumbing",
+  "image": "https://plumbing.six7.lk/assets/img/logo.svg",
+  "telephone": "+94758244216",
+  "priceRange": "LKR 3,500 - LKR 18,000",
+  "url": "https://plumbing.six7.lk/areas/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Mount Lavinia",
+    "addressRegion": "Western Province",
+    "addressCountry": "LK"
+  },
+  "areaServed": [
+    {"@type": "City", "name": "Colombo"},
+    {"@type": "City", "name": "Sri Jayawardenepura Kotte"},
+    {"@type": "City", "name": "Battaramulla"},
+    {"@type": "City", "name": "Maharagama"},
+    {"@type": "City", "name": "Kaduwela"},
+    {"@type": "City", "name": "Homagama"},
+    {"@type": "City", "name": "Piliyandala"},
+    {"@type": "City", "name": "Pitipana"},
+    {"@type": "City", "name": "Boralesgamuwa"}
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Plumbing Dispatch & Service",
+    "itemListElement": [
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Emergency Plumbing Dispatch"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Leak Detection Service"}},
+      {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Drain & Sewer Clearing"}}
+    ]
+  }
+}
+</script>
+
+<!-- Google Maps Embed Note: Replace '1YOUR_MAP_ID_HERE' with your actual Google My Maps embed ID -->
+</body>
+</html>
