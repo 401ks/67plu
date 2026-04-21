@@ -1,1 +1,108 @@
+# SIX7 PLUMBING — FULL SITEMAP & SEO ARCHITECTURE
+`plumbing.six7.lk` | WhatsApp-First | Hourly Billing | Local Dominance
 
+---
+
+## 1. CORE & CONVERSION PAGES
+
+| URL (Subdomain) | Page Name | Content Structure | Targeted Keywords | Main Domain Redirect |
+|----------------|-----------|-------------------|-------------------|---------------------|
+| `/` | Home / Emergency Hub | H1: Emergency Plumber Colombo – Fixed in 45 Mins or Free<br>H2: 24/7 WhatsApp Booking • From LKR 3,500/hr<br>H2: What We Fix Now (Icons + Services)<br>H2: How It Works (3 Steps)<br>H2: Recent Jobs + Map<br>H2: Why Trust Six7 (Guarantees)<br>CTA: Sticky WhatsApp + Mid-page video quote | emergency plumber colombo, plumbing services near me, 24/7 plumber colombo, hourly plumbing rates colombo, fast plumber western province | `six7.lk/` |
+| `/emergency` | Emergency Response Page | H1: Emergency Plumbing Colombo – Arrival in 45 Mins<br>H2: Burst Pipes, Floods, Sewage Backup, No-Water<br>H2: Emergency Pricing (From LKR 3,500/hr, waived if repair)<br>H2: 3-Step Fix Process<br>H2: Live ETA + Job Counter<br>CTA: Pre-filled "EMERGENCY [Location] [Issue]" | emergency plumbing colombo, burst pipe repair colombo, 24/7 plumber homagama, flood control plumbing, urgent plumber near me | `six7.lk/emergency` |
+| `/pricing` | Transparent Hourly Rates | H1: Plumbing Hourly Rates Colombo – No Hidden Fees<br>H2: Service Rate Table (All 23 services)<br>H2: How Hourly Billing Works<br>H2: Parts: We Carry / You Supply<br>H2: Guarantee: Pay After Service<br>CTA: WhatsApp "Get Exact Quote" | plumbing price per hour colombo, plumber rates colombo, hourly plumbing cost sri lanka, transparent plumbing pricing, six7 plumbing rates | `six7.lk/pricing` |
+| `/areas` | Service Area Coverage | H1: Plumber Serving Colombo & Outskirts<br>H2: Interactive Service Map<br>H2: Suburb List + Avg ETA<br>H2: Area-Specific Common Issues<br>CTA: "Check Availability in [Area]" | plumber colombo areas, plumbing services battaramulla, plumber near kotte, western province plumber, six7 coverage area | `six7.lk/areas` |
+
+---
+
+## 2. SERVICE PAGES (23)
+
+*All follow identical high-conversion structure:*
+`H1 → [Service] Colombo – From LKR [X]/hr`
+`H2 → Problem Solved`
+`H2 → Process/Tech Used`
+`H2 → Transparent Hourly Pricing`
+`H2 → Recent Jobs in [Top Area]`
+`H2 → 6-Month Warranty + Pay-After-Service`
+`CTA → Sticky WhatsApp + Inline Video Quote`
+`Schema → Service, FAQ, LocalBusiness`
+
+| URL (Subdomain) | Page Name | Targeted Keywords | Main Domain Redirect |
+|----------------|-----------|-------------------|---------------------|
+| `/leak-detection` | Hidden Leak Detection | leak detection colombo, thermal leak tracing, hidden water pipe leak, acoustic leak detection, plumbing diagnostic colombo | `six7.lk/leak-detection` |
+| `/leak-repair` | Plumbing Leak Repair | plumbing leak repair colombo, burst pipe fix, pipe sealing service, water leak repair hourly rate, plumber fix leak | `six7.lk/leak-repair` |
+| `/pipe-repair` | Plumbing Pipe Repair | pipe repair colombo, PVC copper PPR pipe fix, plumbing pipe replacement, pipe joint repair hourly, plumber colombo pipes | `six7.lk/pipe-repair` |
+| `/tap-installation` | Tap Installation | tap installation colombo, mixer tap fitting, faucet install colombo, kitchen tap plumber, tap fitting hourly rate | `six7.lk/tap-installation` |
+| `/tap-repair` | Tap Repair | tap repair colombo, dripping tap fix, faucet cartridge replacement, bathroom tap maintenance, plumber fix tap colombo | `six7.lk/tap-repair` |
+| `/shower-installation` | Shower Installation | shower installation colombo, rainfall shower fitting, mixer shower install, handheld shower plumber, shower fitting hourly | `six7.lk/shower-installation` |
+| `/shower-repair` | Shower Repair | shower repair colombo, shower mixer fix, shower rail leak repair, bathroom shower maintenance, plumber fix shower colombo | `six7.lk/shower-repair` |
+| `/toilet-installation` | Toilet Installation | toilet installation colombo, WC fitting service, cistern installation colombo, toilet plumber near me, toilet install hourly rate | `six7.lk/toilet-installation` |
+| `/toilet-repair` | Toilet Repair | toilet repair colombo, cistern fix, flush valve repair, running toilet fix, toilet plumber hourly colombo | `six7.lk/toilet-repair` |
+| `/water-heater-installation` | Water Heater Installation | water heater installation colombo, geyser fitting colombo, instant heater install, electric water heater plumber, geyser install hourly | `six7.lk/water-heater-installation` |
+| `/water-heater-repair` | Water Heater Repair | water heater repair colombo, geyser element replacement, thermostat fix colombo, hot water heater service, geyser repair hourly | `six7.lk/water-heater-repair` |
+| `/waste-disposal-installation` | Waste Disposal Installation | waste disposal installation colombo, kitchen sink grinder fit, garbage disposal plumber, sink waste disposer install, hourly fitting rate | `six7.lk/waste-disposal-installation` |
+| `/waste-disposal-repair` | Waste Disposal Repair | waste disposal repair colombo, kitchen grinder jam fix, garbage disposal motor repair, sink waste unit plumber, hourly repair colombo | `six7.lk/waste-disposal-repair` |
+| `/pool-plumbing-repair` | Pool Plumbing Repair | pool plumbing repair colombo, pool pump fix, filtration system plumber, luxury pool maintenance, pool pipe repair hourly | `six7.lk/pool-plumbing-repair` |
+| `/sewer-repair` | Sewer Repair | sewer repair colombo, underground sewer line fix, pipe collapse repair, drainage sewer service, sewer repair colombo hourly rate | `six7.lk/sewer-repair` |
+| `/sewer-cleaning` | Sewer Cleaning | sewer cleaning colombo, main line jetting, sewer blockage removal, drainage unclog service, sewer cleaning hourly rate colombo | `six7.lk/sewer-cleaning` |
+| `/outdoor-plumbing-repair` | Outdoor Plumbing Repair | outdoor plumbing repair colombo, garden tap fix, irrigation pipe leak, exterior plumbing service, yard plumber colombo hourly | `six7.lk/outdoor-plumbing-repair` |
+| `/sump-pump-installation` | Sump Pump Installation | sump pump installation colombo, basement flood pump fit, water pump installation, sump pump plumber colombo, hourly install rate | `six7.lk/sump-pump-installation` |
+| `/sump-pump-repair` | Sump Pump Repair | sump pump repair colombo, flood pump motor fix, basement drainage pump service, water pump maintenance, hourly repair colombo | `six7.lk/sump-pump-repair` |
+| `/drain-cleaning` | Drain Cleaning | drain cleaning colombo, sink shower drain unclog, floor drain plumber, blocked drain fix colombo, drain cleaning hourly rate | `six7.lk/drain-cleaning` |
+| `/water-tank-installation` | Water Tank Installation | water tank installation colombo, overhead tank fitting, underground tank plumber, tank supply & install, hourly tank installation | `six7.lk/water-tank-installation` |
+| `/water-tank-repair` | Water Tank Repair | water tank repair colombo, overhead tank leak fix, tank valve repair, plumbing tank maintenance, hourly tank repair colombo | `six7.lk/water-tank-repair` |
+| `/water-tank-cleaning` | Water Tank Cleaning | water tank cleaning colombo, tank sanitizing service, overhead tank scrub, plumbing maintenance colombo, tank cleaning hourly rate | `six7.lk/water-tank-cleaning` |
+
+---
+
+## 3. LOCATION PAGES (8 Priority Suburbs)
+
+*All follow identical structure:*
+`H1 → Plumber in [Suburb] – 24/7 Emergency & Routine Service`
+`H2 → Services Available in [Suburb] (Link to service pages)`
+`H2 → Common Plumbing Issues in [Suburb] (Localized context)`
+`H2 → Recent Jobs in [Suburb] (Dynamic social proof)`
+`H2 → Why [Suburb] Residents Trust Six7`
+`CTA → Sticky WhatsApp + "Check ETA in [Suburb]"`
+`Schema → LocalBusiness, AreaServed, FAQ`
+
+| URL (Subdomain) | Page Name | Targeted Keywords | Main Domain Redirect |
+|----------------|-----------|-------------------|---------------------|
+| `/location/kotte` | Plumber in Kotte | plumber kotte, emergency plumbing kotte, leak detection kotte, kotte plumber near me, plumbing services sri jayawardenepura kotte | `six7.lk/plumber-kotte` |
+| `/location/battaramulla` | Plumber in Battaramulla | plumber battaramulla, emergency plumber battaramulla, leak repair battaramulla, battaramulla plumbing service, plumber near me battaramulla | `six7.lk/plumber-battaramulla` |
+| `/location/maharagama` | Plumber in Maharagama | plumber maharagama, emergency plumbing maharagama, drain cleaning maharagama, maharagama plumber hourly, plumber near me maharagama | `six7.lk/plumber-maharagama` |
+| `/location/kaduwela` | Plumber in Kaduwela | plumber kaduwela, emergency plumbing kaduwela, water tank repair kaduwela, kaduwela plumbing service, plumber hourly rate kaduwela | `six7.lk/plumber-kaduwela` |
+| `/location/homagama` | Plumber in Homagama | plumber homagama, emergency plumber homagama, geyser repair homagama, homagama plumbing service, plumber near me homagama | `six7.lk/plumber-homagama` |
+| `/location/pitipana` | Plumber in Pitipana | plumber pitipana, emergency plumbing pitipana, pitipana leak detection, plumbing services pitipana, hourly plumber pitipana | `six7.lk/plumber-pitipana` |
+| `/location/boralesgamuwa` | Plumber in Boralesgamuwa | plumber boralesgamuwa, emergency plumber boralesgamuwa, sewer cleaning boralesgamuwa, plumbing service boralesgamuwa, plumber near me | `six7.lk/plumber-boralesgamuwa` |
+| `/location/piliyandala` | Plumber in Piliyandala | plumber piliyandala, emergency plumbing piliyandala, piliyandala tap installation, plumbing services piliyandala, hourly plumber piliyandala | `six7.lk/plumber-piliyandala` |
+
+---
+
+## 4. UTILITY & CONVERSION ARCHITECTURE
+
+| URL (Main Domain) | Function | Redirect Target | Purpose |
+|------------------|----------|-----------------|---------|
+| `six7.lk/review?r=plumbing` | Review Funnel | `g.page/six7plumbing/review` | Post-job WhatsApp auto-message link; drives Google Reviews |
+| `six7.lk/quote` | WhatsApp Router | `wa.me/94758244216?text=QUOTE%20[Service]%20[Area]` | Clean link for ads, flyers, GMB posts |
+| `six7.lk/emergency-now` | Urgency CTA | `plumbing.six7.lk/emergency` | High-CTR button for social/WhatsApp status shares |
+| `six7.lk/areas/colombo` | Legacy/Ads | `plumbing.six7.lk/location/colombo` | Captures old URL variations + paid traffic |
+
+---
+
+## 5. IMPLEMENTATION RULES FOR DEV/SEO TEAM
+
+1. **Subdomain Isolation**: `plumbing.six7.lk` hosts ALL plumbing content. `six7.lk` only handles redirects, corporate info, and other service categories (electrical, cleaning, etc.)
+2. **Template Consistency**: Every service/location page uses the exact H1-H2-CTA schema. Only swap `[Service]`, `[Price]`, `[Location]`, and `[Keywords]`
+3. **WhatsApp Pre-fill Logic**: 
+   - Emergency pages: `?text=EMERGENCY%20[Location]%20[Issue]`
+   - Service pages: `?text=QUOTE%20[ServiceName]%20[Suburb]%20[Issue]`
+   - Location pages: `?text=HELP%20NEEDED%20IN%20[Suburb]`
+4. **Schema Markup**: Inject `LocalBusiness`, `Service`, `FAQPage`, and `AreaServed` JSON-LD on ALL pages. Use dynamic location variables for location pages.
+5. **Indexing Control**: Block `/wp-admin`, `/feed`, `/author`, `/tag` via `robots.txt`. Sitemap: `plumbing.six7.lk/sitemap.xml`
+6. **Internal Linking Rule**: Each location page links to top 5 relevant service pages. Each service page links to top 3 relevant location pages. Anchor text: `[Service] in [Suburb]`, `[Suburb] [Service]`
+
+---
+
+**Next Step**: Hand this sitemap to your dev/SEO team. Once URLs are live, I'll generate the exact HTML/CSS blocks for the top 5 priority pages (`/emergency`, `/leak-detection`, `/tap-installation`, `/location/kotte`, `/location/battaramulla`) with schema, pre-filled WhatsApp links, and mobile-optimized CTAs.
+
+Ready to deploy.
