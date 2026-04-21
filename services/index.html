@@ -1,1 +1,383 @@
+<!DOCTYPE html>
+<html class="light" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>All Plumbing Services Colombo – Hourly Rates from LKR 3,500 | Six7 Plumbing</title>
+  <meta name="description" content="23 professional plumbing services in Colombo & outskirts. Transparent hourly billing, 24/7 emergency response, pay after service. WhatsApp for instant quote.">
+  <meta name="keywords" content="plumbing services colombo, hourly plumber rates colombo, 24/7 plumbing colombo, residential commercial plumbing sri lanka, plumber near me colombo">
+  <link rel="canonical" href="https://plumbing.six7.lk/services/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="Complete Plumbing Services Colombo – Transparent Hourly Rates">
+  <meta property="og:description" content="Browse 23 professional plumbing services. From LKR 3,500/hr. WhatsApp for instant quote + ETA.">
+  <meta property="og:url" content="https://plumbing.six7.lk/services/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://plumbing.six7.lk/assets/img/og-services.jpg">
 
+  <!-- Tailwind + Fonts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-secondary-fixed": "#410003",
+            "on-secondary": "#ffffff",
+            "surface-container-low": "#e6f6ff",
+            "inverse-on-surface": "#dff4ff",
+            "tertiary": "#003567",
+            "primary": "#003178",
+            "outline-variant": "#c3c6d4",
+            "on-primary": "#ffffff",
+            "on-error": "#ffffff",
+            "on-secondary-container": "#fffbff",
+            "tertiary-container": "#004c8e",
+            "error-container": "#ffdad6",
+            "tertiary-fixed": "#d4e3ff",
+            "inverse-primary": "#b0c6ff",
+            "surface-container-high": "#d5ecf8",
+            "surface-tint": "#2b5bb5",
+            "on-background": "#071e27",
+            "surface-bright": "#f3faff",
+            "surface": "#f3faff",
+            "on-primary-fixed": "#001945",
+            "on-secondary-fixed-variant": "#930010",
+            "on-surface-variant": "#434652",
+            "secondary-container": "#da3433",
+            "on-tertiary": "#ffffff",
+            "surface-variant": "#cfe6f2",
+            "primary-fixed-dim": "#b0c6ff",
+            "on-primary-fixed-variant": "#00429c",
+            "secondary": "#b6171e",
+            "on-tertiary-fixed-variant": "#004786",
+            "surface-container-highest": "#cfe6f2",
+            "outline": "#737783",
+            "inverse-surface": "#1e333c",
+            "on-tertiary-container": "#93beff",
+            "secondary-fixed": "#ffdad6",
+            "on-primary-container": "#a1bbff",
+            "background": "#f3faff",
+            "surface-dim": "#c7dde9",
+            "surface-container": "#dbf1fe",
+            "tertiary-fixed-dim": "#a5c8ff",
+            "secondary-fixed-dim": "#ffb3ac",
+            "primary-fixed": "#d9e2ff",
+            "error": "#ba1a1a",
+            "surface-container-lowest": "#ffffff",
+            "on-error-container": "#93000a",
+            "on-surface": "#071e27",
+            "on-tertiary-fixed": "#001c3a",
+            "primary-container": "#0d47a1"
+          },
+          borderRadius: {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          fontFamily: {
+            "headline": ["Work Sans"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .pulse-indicator { animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .5; transform: scale(1.2); } }
+    .glass-nav { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    /* Payment reminder sticky */
+    .payment-reminder {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+      background: #0f172a; color: white; padding: 0.75rem 1.5rem;
+      font-size: 0.9rem; display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; box-shadow: 0 4px 6px -2px rgba(0,0,0,0.1);
+      border-bottom: 2px solid #b6171e;
+    }
+    .dismiss-btn { background: #b6171e; padding: 0.2rem 1rem; border-radius: 2rem; cursor: pointer; color: white; font-weight: bold; border: none; }
+    body { padding-top: 40px; }
+    .sticky-bottom-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
+      background: white; border-top: 1px solid #cbd5e1; display: flex;
+      padding-bottom: env(safe-area-inset-bottom);
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+    }
+    .sticky-bottom-bar a {
+      flex: 1; text-align: center; padding: 14px 0; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    @media (min-width: 768px) { .sticky-bottom-bar { display: none; } body { padding-top: 0; } .payment-reminder { position: relative; top: 0; } }
+    /* Accordion details style */
+    .category-details summary { list-style: none; cursor: pointer; }
+    .category-details summary::-webkit-details-marker { display: none; }
+  </style>
+</head>
+
+<body class="bg-surface font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
+
+<!-- A. STICKY PAYMENT DISCLAIMER -->
+<div class="payment-reminder" id="paymentReminder">
+  <span><i class="fas fa-exclamation-triangle mr-2 text-secondary"></i> REMINDER: You pay for what gets done - not what you assumed. Post-job price complaints = no refund, no future service.</span>
+  <button class="dismiss-btn" onclick="document.getElementById('paymentReminder').style.display='none'; localStorage.setItem('paymentDismissed','1')"><i class="fas fa-times mr-1"></i> Dismiss</button>
+</div>
+<script>
+  if (localStorage.getItem('paymentDismissed') === '1') {
+    document.getElementById('paymentReminder').style.display = 'none';
+  }
+</script>
+
+<!-- TopNavBar (original styling, updated links) -->
+<nav class="fixed top-0 w-full z-50 bg-blue-50/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-2xl shadow-blue-900/5" style="top: 0;">
+  <div class="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
+    <div class="text-2xl font-black tracking-tighter text-blue-900 dark:text-blue-50 font-headline uppercase">
+      SIX7 PLUMBING
+    </div>
+    <div class="hidden md:flex items-center gap-8">
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/">Home</a>
+      <a class="text-blue-900 dark:text-blue-100 border-b-2 border-blue-900 dark:border-blue-100 pb-1 font-work-sans font-bold tracking-tight uppercase" href="/services">Services</a>
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/pricing">Pricing</a>
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/areas">Areas</a>
+<a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/about-us">About Us</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <span class="hidden lg:block text-blue-800 dark:text-blue-400 font-work-sans font-bold tracking-tight uppercase">+94 75 824 4216</span>
+      <a href="https://wa.me/94758244216?text=SERVICE%20INQUIRY%20Colombo" class="bg-primary text-on-primary px-6 py-2 rounded-xl font-bold font-work-sans tracking-tight uppercase hover:bg-primary-container transition-all">
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-24 pb-32">
+  <!-- HERO SECTION -->
+  <section class="px-6 py-12 max-w-7xl mx-auto">
+    <div class="flex flex-col md:flex-row items-end gap-8 mb-16">
+      <div class="flex-1">
+        <div class="flex items-center gap-3 mb-6">
+          <span class="w-2 h-2 rounded-full bg-secondary pulse-indicator"></span>
+          <span class="text-sm font-bold font-headline uppercase tracking-widest text-secondary">24/7 Dispatch Active</span>
+        </div>
+        <h1 class="text-5xl md:text-7xl font-black font-headline tracking-tighter text-on-surface leading-none uppercase">
+          All Plumbing Services in Colombo – <span class="text-primary-container">Transparent Rates</span>
+        </h1>
+      </div>
+      <div class="flex-shrink-0 max-w-xs text-right">
+        <p class="text-lg text-on-surface-variant font-medium leading-relaxed mb-4">
+          23 Professional Services • From LKR 3,500/hr • Pay After Service
+        </p>
+        <p class="text-sm mb-4">No hidden fees. Quote confirmed before work. Serving <a href="/areas" class="underline decoration-secondary">Colombo & Western Province</a>.</p>
+        <a href="/pricing" class="inline-flex items-center text-primary font-bold gap-1"><i class="fas fa-file-invoice"></i> View Full Pricing Guide →</a>
+      </div>
+    </div>
+    <!-- CTA buttons -->
+    <div class="flex flex-col sm:flex-row gap-4 mb-10">
+      <a href="https://wa.me/94758244216?text=SERVICE%20INQUIRY%20Colombo%20-%20Need%20plumbing%20service" class="bg-secondary text-on-secondary px-8 py-4 rounded-xl text-lg font-black font-headline flex items-center justify-center gap-3 shadow-xl hover:scale-105 transition">
+        <i class="fab fa-whatsapp text-xl"></i> WhatsApp Service Inquiry
+      </a>
+      <a href="tel:+94758244216" class="bg-surface-container-highest text-primary px-8 py-4 rounded-xl text-lg font-bold hover:bg-surface-container-high transition flex items-center justify-center gap-2">
+        <i class="fas fa-phone-alt"></i> Call Dispatcher: +94 75 824 4216
+      </a>
+    </div>
+  </section>
+
+  <!-- SERVICE CATEGORIES (Accordion on mobile, grid on desktop) -->
+  <section class="px-6 max-w-7xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-black font-headline uppercase mb-10">Browse Services by Category</h2>
+    
+    <!-- CATEGORY 1: Emergency & Leak -->
+    <details class="category-details group mb-8 border-b border-outline-variant/30 pb-6" open>
+      <summary class="flex items-center justify-between cursor-pointer">
+        <div class="flex items-center gap-3">
+          <i class="fas fa-exclamation-triangle text-secondary text-2xl"></i>
+          <h3 class="text-2xl font-black font-headline uppercase">Emergency & Leak Services</h3>
+        </div>
+        <i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i>
+      </summary>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
+        <!-- 4 cards -->
+        <div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border-l-2 border-secondary">
+          <h4 class="font-bold text-lg">Leak Detection</h4><p class="text-sm text-on-surface-variant mb-3">From LKR 3,500/hr</p>
+          <div class="flex gap-3"><a href="/services/leak-detection" class="text-xs font-bold text-primary">DETAILS →</a><a href="https://wa.me/94758244216?text=QUOTE%20Leak%20Detection%20Colombo" class="text-xs text-secondary font-bold"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        </div>
+        <div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border-l-2 border-secondary">
+          <h4 class="font-bold text-lg">Leak Repair</h4><p class="text-sm text-on-surface-variant mb-3">From LKR 3,500/hr</p>
+          <div class="flex gap-3"><a href="/services/leak-repair" class="text-xs font-bold text-primary">DETAILS →</a><a href="https://wa.me/94758244216?text=QUOTE%20Leak%20Repair%20Colombo" class="text-xs text-secondary font-bold"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        </div>
+        <div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border-l-2 border-secondary">
+          <h4 class="font-bold text-lg">Pipe Repair</h4><p class="text-sm text-on-surface-variant mb-3">From LKR 3,500/hr</p>
+          <div class="flex gap-3"><a href="/services/pipe-repair" class="text-xs font-bold text-primary">DETAILS →</a><a href="https://wa.me/94758244216?text=QUOTE%20Pipe%20Repair%20Colombo" class="text-xs text-secondary font-bold"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        </div>
+        <div class="bg-surface-container-lowest p-5 rounded-xl shadow-sm border-l-2 border-secondary">
+          <h4 class="font-bold text-lg">Outdoor Plumbing Repair</h4><p class="text-sm text-on-surface-variant mb-3">From LKR 4,500/hr</p>
+          <div class="flex gap-3"><a href="/services/outdoor-plumbing-repair" class="text-xs font-bold text-primary">DETAILS →</a><a href="https://wa.me/94758244216?text=QUOTE%20Outdoor%20Plumbing%20Repair" class="text-xs text-secondary font-bold"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        </div>
+      </div>
+    </details>
+
+    <!-- CATEGORY 2: Bathroom & Fixture -->
+    <details class="category-details group mb-8 border-b border-outline-variant/30 pb-6">
+      <summary class="flex items-center justify-between cursor-pointer">
+        <div class="flex items-center gap-3">
+          <i class="fas fa-bath text-primary text-2xl"></i>
+          <h3 class="text-2xl font-black font-headline uppercase">Bathroom & Fixture Install/Repair</h3>
+        </div>
+        <i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i>
+      </summary>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Tap Installation</h4><p class="text-sm">LKR 3,500/hr</p><a href="/services/tap-installation" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Tap%20Installation" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Tap Repair</h4><p class="text-sm">LKR 3,500/hr</p><a href="/services/tap-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Tap%20Repair" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Shower Installation</h4><p class="text-sm">LKR 3,500/hr</p><a href="/services/shower-installation" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Shower%20Installation" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Shower Repair</h4><p class="text-sm">LKR 3,500/hr</p><a href="/services/shower-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Shower%20Repair" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Toilet Installation</h4><p class="text-sm">LKR 4,500/hr</p><a href="/services/toilet-installation" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Toilet%20Installation" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Toilet Repair</h4><p class="text-sm">LKR 6,500/hr</p><a href="/services/toilet-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Toilet%20Repair" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+      </div>
+    </details>
+
+    <!-- CATEGORY 3: Water Heaters & Waste -->
+    <details class="category-details group mb-8 border-b border-outline-variant/30 pb-6">
+      <summary class="flex items-center justify-between cursor-pointer">
+        <div class="flex items-center gap-3">
+          <i class="fas fa-fire text-secondary text-2xl"></i>
+          <h3 class="text-2xl font-black font-headline uppercase">Water Heaters & Waste Systems</h3>
+        </div>
+        <i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i>
+      </summary>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-6">
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Water Heater Installation</h4><p>LKR 4,500/hr</p><a href="/services/water-heater-installation" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Water%20Heater%20Install" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Water Heater Repair</h4><p>LKR 5,700/hr</p><a href="/services/water-heater-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Water%20Heater%20Repair" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Waste Disposal Install</h4><p>LKR 6,500/hr</p><a href="/services/waste-disposal-installation" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Waste%20Disposal%20Install" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4 rounded"><h4 class="font-bold">Waste Disposal Repair</h4><p>LKR 7,900/hr</p><a href="/services/waste-disposal-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Waste%20Disposal%20Repair" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+      </div>
+    </details>
+
+    <!-- CATEGORY 4: Drain, Sewer & Tank/Pump -->
+    <details class="category-details group mb-8">
+      <summary class="flex items-center justify-between cursor-pointer">
+        <div class="flex items-center gap-3">
+          <i class="fas fa-water text-primary text-2xl"></i>
+          <h3 class="text-2xl font-black font-headline uppercase">Drain, Sewer & Tank/Pump</h3>
+        </div>
+        <i class="fas fa-chevron-down group-open:rotate-180 transition-transform"></i>
+      </summary>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-6">
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Drain Cleaning</h4><p>LKR 7,500/hr</p><a href="/services/drain-cleaning" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Drain%20Cleaning" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Sewer Cleaning</h4><p>LKR 18,000 + 8,900/hr</p><a href="/services/sewer-cleaning" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Sewer%20Cleaning" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Sewer Repair</h4><p>LKR 18,000 + 7,900/hr</p><a href="/services/sewer-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Sewer%20Repair" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Pool Plumbing Repair</h4><p>LKR 6,900/hr</p><a href="/services/pool-plumbing-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Pool%20Plumbing" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Sump Pump Install</h4><p>LKR 6,500/hr</p><a href="/services/sump-pump-installation" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Sump%20Pump%20Install" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Sump Pump Repair</h4><p>LKR 6,500/hr</p><a href="/services/sump-pump-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Sump%20Pump%20Repair" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Water Tank Install</h4><p>LKR 12,000 + 3,500/hr</p><a href="/services/water-tank-installation" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Water%20Tank%20Install" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Water Tank Repair</h4><p>LKR 6,500/hr</p><a href="/services/water-tank-repair" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Water%20Tank%20Repair" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+        <div class="bg-surface-container-lowest p-4"><h4 class="font-bold">Water Tank Cleaning</h4><p>LKR 6,500/hr</p><a href="/services/water-tank-cleaning" class="text-primary text-xs">Details →</a> <a href="https://wa.me/94758244216?text=QUOTE%20Water%20Tank%20Cleaning" class="text-secondary text-xs ml-2"><i class="fab fa-whatsapp"></i> Quote</a></div>
+      </div>
+    </details>
+  </section>
+
+  <!-- HOW HOURLY BILLING WORKS -->
+  <section class="mt-20 px-6 max-w-7xl mx-auto bg-surface-container-low p-10 rounded-xl">
+    <div class="flex flex-wrap justify-between items-center gap-8">
+      <div><h2 class="text-3xl font-black font-headline uppercase mb-4">Transparent Pricing – No Surprises</h2>
+        <ul class="space-y-2">
+          <li><i class="fas fa-check-circle text-secondary mr-2"></i> Confirmed quote before work begins</li>
+          <li><i class="fas fa-check-circle text-secondary mr-2"></i> Billed for actual time on-site</li>
+          <li><i class="fas fa-check-circle text-secondary mr-2"></i> No callout fee if you proceed with repair</li>
+          <li><i class="fas fa-check-circle text-secondary mr-2"></i> Pay after service – only when satisfied</li>
+        </ul>
+      </div>
+      <div class="flex gap-4">
+        <a href="/pricing" class="bg-primary text-on-primary px-6 py-3 rounded-lg font-bold">View Full Rate Card</a>
+        <a href="/disclaimer" class="border border-primary text-primary px-6 py-3 rounded-lg font-bold">Read Payment Policy</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST BADGES -->
+  <section class="py-16 px-6 max-w-7xl mx-auto">
+    <h2 class="text-3xl font-black font-headline uppercase mb-8 text-center">Why We're Colombo's Go-To Plumbing Service</h2>
+    <div class="flex flex-wrap justify-center gap-4">
+      <span class="bg-surface-container-lowest px-5 py-2 rounded-full shadow"><i class="fas fa-clock text-primary"></i> 24/7 Availability</span>
+      <span class="bg-surface-container-lowest px-5 py-2 rounded-full shadow"><i class="fas fa-user-check text-primary"></i> Verified Technicians</span>
+      <span class="bg-surface-container-lowest px-5 py-2 rounded-full shadow"><i class="fas fa-shield-alt text-primary"></i> 6-Month Warranty</span>
+      <span class="bg-surface-container-lowest px-5 py-2 rounded-full shadow"><i class="fas fa-hand-holding-usd text-primary"></i> Pay After Service</span>
+      <span class="bg-surface-container-lowest px-5 py-2 rounded-full shadow"><i class="fas fa-tag text-primary"></i> No Hidden Fees</span>
+      <span class="bg-surface-container-lowest px-5 py-2 rounded-full shadow"><i class="fas fa-tachometer-alt text-primary"></i> Avg. 38-Min Arrival</span>
+    </div>
+  </section>
+
+  <!-- QUICK SERVICE REQUEST FORM (fallback) -->
+  <section class="px-6 max-w-3xl mx-auto py-10">
+    <h2 class="text-2xl font-black uppercase text-center mb-6">Can't Decide? Tell Us What You Need</h2>
+    <form action="https://formsubmit.co/pforms@six7.lk" method="POST" class="bg-white p-8 rounded-xl shadow space-y-5">
+      <input type="hidden" name="_subject" value="Services page request">
+      <input type="hidden" name="_next" value="/thank-you">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="text" name="name" placeholder="Full Name *" required class="p-3 border rounded w-full">
+        <input type="tel" name="phone" placeholder="Phone/WhatsApp *" required class="p-3 border rounded w-full">
+      </div>
+      <input type="text" name="suburb" placeholder="Suburb *" required class="p-3 border rounded w-full">
+      <select name="service_type" class="p-3 border rounded w-full">
+        <option>Leak Detection</option><option>Leak Repair</option><option>Pipe Repair</option><option>Tap Installation</option><option>Toilet Repair</option><option>Drain Cleaning</option><option>Water Heater Repair</option><option>Water Tank Service</option><option>Other</option>
+      </select>
+      <textarea name="issue" placeholder="Describe issue" class="p-3 border rounded w-full"></textarea>
+      <div class="flex items-start gap-2">
+        <input type="checkbox" required id="agree" class="mt-1">
+        <label for="agree" class="text-sm">I agree to the <a href="/disclaimer" class="text-secondary font-bold">Pricing Policy & Zero-Tolerance Disclaimer</a></label>
+      </div>
+      <button class="w-full bg-primary text-on-primary py-4 rounded-lg font-black text-lg"><i class="fas fa-paper-plane mr-2"></i> SEND REQUEST</button>
+    </form>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="w-full py-12 bg-blue-900 dark:bg-slate-950 text-white">
+  <div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-8">
+    <div class="font-work-sans font-black tracking-widest uppercase">SIX7 PLUMBING</div>
+    <div class="flex flex-wrap justify-center gap-8">
+      <a class="text-blue-200 hover:text-red-400" href="/emergency">Emergency</a>
+      <a class="text-blue-200 hover:text-red-400" href="/pricing">Pricing</a>
+      <a class="text-blue-200 hover:text-red-400" href="/areas">Areas</a>
+      <a class="text-blue-200 hover:text-red-400" href="/disclaimer">Disclaimer</a>
+      <a class="text-blue-200 hover:text-red-400" href="/review">Review Us</a>
+    </div>
+    <div class="text-blue-200 text-sm opacity-80">© 2026 Six7 Plumbing. +94 75 824 4216 | plumbing@six7.lk</div>
+  </div>
+</footer>
+
+<!-- STICKY BOTTOM BAR (mobile) -->
+<div class="sticky-bottom-bar">
+  <a href="tel:+94758244216" class="bg-primary text-white"><i class="fas fa-phone-alt"></i> Call</a>
+  <a href="https://wa.me/94758244216?text=SERVICE%20INQUIRY%20Colombo" class="bg-secondary text-white"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+</div>
+
+<!-- SCHEMA MARKUP -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "All Plumbing Services Colombo",
+  "description": "23 professional plumbing services with transparent hourly billing in Colombo & Western Province.",
+  "url": "https://plumbing.six7.lk/services/",
+  "mainEntity": {
+    "@type": "ItemList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "item": {"@type": "Service", "name": "Plumbing Leak Detection"}},
+      {"@type": "ListItem", "position": 2, "item": {"@type": "Service", "name": "Plumbing Leak Repair"}},
+      {"@type": "ListItem", "position": 3, "item": {"@type": "Service", "name": "Plumbing Pipe Repair"}},
+      {"@type": "ListItem", "position": 4, "item": {"@type": "Service", "name": "Tap Installation"}},
+      {"@type": "ListItem", "position": 5, "item": {"@type": "Service", "name": "Toilet Repair"}},
+      {"@type": "ListItem", "position": 6, "item": {"@type": "Service", "name": "Drain Cleaning"}},
+      {"@type": "ListItem", "position": 7, "item": {"@type": "Service", "name": "Water Tank Installation"}}
+    ]
+  }
+}
+</script>
+</body>
+</html>
