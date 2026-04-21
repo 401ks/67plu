@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>About Six7 Plumbing – Colombo's Trusted 24/7 Emergency Plumbers</title>
+  <meta name="description" content="Six7 Plumbing: Local Colombo plumbers since 2020. 24/7 emergency response, transparent hourly rates from LKR 3,500/hr, pay after service. Serving Kotte, Battaramulla, Homagama.">
+  <meta name="keywords" content="about six7 plumbing, colombo plumber company, emergency plumbing team sri lanka, licensed plumber colombo, western province plumbing services">
+  <link rel="canonical" href="https://plumbing.six7.lk/about-us/">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="About Six7 Plumbing – Local Experts, 24/7 Emergency Response">
+  <meta property="og:description" content="Meet Colombo's trusted plumbing team. Verified technicians, transparent hourly billing, 6-month warranty. WhatsApp for instant quote.">
+  <meta property="og:url" content="https://plumbing.six7.lk/about-us/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://plumbing.six7.lk/assets/img/og-about.jpg">
+
+  <!-- Tailwind + Fonts -->
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "on-secondary-fixed": "#410003",
+            "on-secondary": "#ffffff",
+            "surface-container-low": "#e6f6ff",
+            "inverse-on-surface": "#dff4ff",
+            "tertiary": "#003567",
+            "primary": "#003178",
+            "outline-variant": "#c3c6d4",
+            "on-primary": "#ffffff",
+            "on-error": "#ffffff",
+            "on-secondary-container": "#fffbff",
+            "tertiary-container": "#004c8e",
+            "error-container": "#ffdad6",
+            "tertiary-fixed": "#d4e3ff",
+            "inverse-primary": "#b0c6ff",
+            "surface-container-high": "#d5ecf8",
+            "surface-tint": "#2b5bb5",
+            "on-background": "#071e27",
+            "surface-bright": "#f3faff",
+            "surface": "#f3faff",
+            "on-primary-fixed": "#001945",
+            "on-secondary-fixed-variant": "#930010",
+            "on-surface-variant": "#434652",
+            "secondary-container": "#da3433",
+            "on-tertiary": "#ffffff",
+            "surface-variant": "#cfe6f2",
+            "primary-fixed-dim": "#b0c6ff",
+            "on-primary-fixed-variant": "#00429c",
+            "secondary": "#b6171e",
+            "on-tertiary-fixed-variant": "#004786",
+            "surface-container-highest": "#cfe6f2",
+            "outline": "#737783",
+            "inverse-surface": "#1e333c",
+            "on-tertiary-container": "#93beff",
+            "secondary-fixed": "#ffdad6",
+            "on-primary-container": "#a1bbff",
+            "background": "#f3faff",
+            "surface-dim": "#c7dde9",
+            "surface-container": "#dbf1fe",
+            "tertiary-fixed-dim": "#a5c8ff",
+            "secondary-fixed-dim": "#ffb3ac",
+            "primary-fixed": "#d9e2ff",
+            "error": "#ba1a1a",
+            "surface-container-lowest": "#ffffff",
+            "on-error-container": "#93000a",
+            "on-surface": "#071e27",
+            "on-tertiary-fixed": "#001c3a",
+            "primary-container": "#0d47a1"
+          },
+          borderRadius: {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          fontFamily: {
+            "headline": ["Work Sans"],
+            "body": ["Inter"],
+            "label": ["Inter"]
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .glass-nav { backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
+    .payment-reminder {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+      background: #0f172a; color: white; padding: 0.75rem 1.5rem;
+      font-size: 0.9rem; display: flex; justify-content: space-between;
+      align-items: center; flex-wrap: wrap; box-shadow: 0 4px 6px -2px rgba(0,0,0,0.1);
+      border-bottom: 2px solid #b6171e;
+    }
+    .dismiss-btn { background: #b6171e; padding: 0.2rem 1rem; border-radius: 2rem; cursor: pointer; color: white; font-weight: bold; border: none; }
+    body { padding-top: 40px; }
+    .sticky-bottom-bar {
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
+      background: white; border-top: 1px solid #cbd5e1; display: flex;
+      padding-bottom: env(safe-area-inset-bottom);
+      box-shadow: 0 -4px 10px rgba(0,0,0,0.05);
+    }
+    .sticky-bottom-bar a {
+      flex: 1; text-align: center; padding: 14px 0; font-weight: 700;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    @media (min-width: 768px) { .sticky-bottom-bar { display: none; } body { padding-top: 0; } .payment-reminder { position: relative; top: 0; } }
+  </style>
+</head>
+
+<body class="bg-surface font-body text-on-surface selection:bg-primary-fixed selection:text-on-primary-fixed">
+
+<!-- A. STICKY PAYMENT DISCLAIMER -->
+<div class="payment-reminder" id="paymentReminder">
+  <span><i class="fas fa-exclamation-triangle mr-2 text-secondary"></i> REMINDER: You pay for what gets done - not what you assumed. Post-job price complaints = no refund, no future service.</span>
+  <button class="dismiss-btn" onclick="document.getElementById('paymentReminder').style.display='none'; localStorage.setItem('paymentDismissed','1')"><i class="fas fa-times mr-1"></i> Dismiss</button>
+</div>
+<script>
+  if (localStorage.getItem('paymentDismissed') === '1') {
+    document.getElementById('paymentReminder').style.display = 'none';
+  }
+</script>
+
+<!-- TopNavBar (original styling, updated links) -->
+<nav class="fixed top-0 w-full z-50 bg-blue-50/70 dark:bg-slate-900/70 backdrop-blur-xl shadow-2xl shadow-blue-900/5" style="top: 0;">
+  <div class="flex justify-between items-center w-full px-6 py-4 max-w-7xl mx-auto">
+    <div class="text-2xl font-black tracking-tighter text-blue-900 dark:text-blue-50 font-headline uppercase">
+      SIX7 PLUMBING
+    </div>
+    <div class="hidden md:flex items-center space-x-8">
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/">Home</a>
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/services">Services</a>
+      <a class="text-blue-900 dark:text-blue-100 border-b-2 border-blue-900 dark:border-blue-100 pb-1 font-work-sans tracking-tight uppercase" href="/about-us">About Us</a>
+      <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/emergency">Emergency</a>
+     <a class="text-slate-600 dark:text-slate-400 font-medium font-work-sans tracking-tight uppercase hover:text-red-600 transition-all" href="/about-us">About Us</a>
+    </div>
+    <div class="flex items-center gap-4">
+      <span class="hidden lg:block text-blue-800 dark:text-blue-400 font-bold font-work-sans uppercase">+94 75 824 4216</span>
+      <a href="https://wa.me/94758244216?text=ABOUT%20INQUIRY%20Colombo" class="bg-primary text-on-primary px-6 py-2 rounded-lg font-bold tracking-tight hover:bg-primary-container transition-all">
+        WhatsApp
+      </a>
+    </div>
+  </div>
+</nav>
+
+<main class="pt-24">
+  <!-- HERO SECTION -->
+  <section class="px-6 py-16 lg:py-24 max-w-7xl mx-auto overflow-hidden">
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-end">
+      <div class="lg:col-span-8">
+        <span class="inline-flex items-center gap-2 px-3 py-1 bg-secondary-fixed text-on-secondary-fixed-variant rounded-full text-xs font-bold tracking-widest uppercase mb-6">
+          <i class="fas fa-hard-hat"></i> Local Team Since 2020
+        </span>
+        <h1 class="font-headline text-5xl md:text-6xl font-black text-on-surface tracking-tighter leading-[1.1] mb-6">
+          About Six7 Plumbing – Colombo's Trusted 24/7 Emergency Plumbers
+        </h1>
+        <p class="text-lg text-on-surface-variant mb-4">Local Team • Verified Technicians • Transparent Hourly Billing • Pay After Service</p>
+        <p class="text-on-surface-variant max-w-xl leading-relaxed mb-6">
+          Since 2020, we've fixed 5,000+ plumbing emergencies across <a href="/areas" class="underline decoration-secondary">Colombo & Western Province</a>. No call centers. No hidden fees. Just fast, honest plumbing.
+        </p>
+        <div class="flex flex-wrap gap-4 mb-8">
+          <span class="bg-surface-container-lowest px-4 py-2 rounded-full text-sm"><i class="fas fa-check-circle text-secondary"></i> 5,000+ Jobs Completed</span>
+          <span class="bg-surface-container-lowest px-4 py-2 rounded-full text-sm"><i class="fas fa-star text-secondary"></i> 4.9★ Google Reviews</span>
+          <span class="bg-surface-container-lowest px-4 py-2 rounded-full text-sm"><i class="fas fa-shield-alt text-secondary"></i> 6-Month Warranty</span>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="https://wa.me/94758244216?text=ABOUT%20INQUIRY%20Colombo" class="bg-secondary text-on-secondary px-8 py-4 rounded-xl text-lg font-black font-headline flex items-center justify-center gap-3 shadow-xl hover:scale-105 transition">
+            <i class="fab fa-whatsapp"></i> WhatsApp Our Team Now
+          </a>
+          <a href="tel:+94758244216" class="bg-surface-container-highest text-primary px-8 py-4 rounded-xl text-lg font-bold hover:bg-surface-container-high transition flex items-center justify-center gap-2">
+            <i class="fas fa-phone-alt"></i> Call Direct: +94 75 824 4216
+          </a>
+        </div>
+      </div>
+      <div class="lg:col-span-4">
+        <div class="bg-surface-container-highest p-8 rounded-xl shadow-2xl relative overflow-hidden">
+          <div class="absolute top-0 right-0 p-4 opacity-10"><i class="fas fa-certificate text-8xl"></i></div>
+          <h3 class="font-headline font-extrabold text-2xl mb-2 text-primary">Fully Certified</h3>
+          <p class="text-sm text-on-surface-variant">Licensed Master Plumbers, fully insured for all residential and commercial work across Western Province.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OUR STORY + TEAM PHOTO -->
+  <section class="bg-surface-dim py-20">
+    <div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div>
+        <h2 class="font-headline text-4xl font-black tracking-tight uppercase mb-6">Why We Started Six7 Plumbing</h2>
+        <div class="space-y-4 text-on-surface-variant leading-relaxed">
+          <p>Colombo's plumbing emergencies don't wait for business hours. Neither do we.</p>
+          <p>Six7 Plumbing was founded in 2020 by local technicians who saw a gap: too many plumbers overcharging, under-delivering, or disappearing after the job.</p>
+          <p>We built a different model:</p>
+          <ul class="space-y-2">
+            <li><i class="fas fa-exclamation-triangle text-secondary w-5"></i> 24/7 emergency response – avg. 38-min arrival</li>
+            <li><i class="fas fa-tag text-secondary w-5"></i> Transparent hourly billing – from LKR 3,500/hr, quote before work</li>
+            <li><i class="fas fa-hand-holding-usd text-secondary w-5"></i> Pay After Service guarantee – you only pay when satisfied</li>
+            <li><i class="fas fa-user-check text-secondary w-5"></i> Verified technicians – ID-checked, uniformed, background-screened</li>
+          </ul>
+          <p>Today, we serve Colombo 1-15, Kotte, Battaramulla, Maharagama, Homagama & beyond – with the same promise: fast, fair, fixed.</p>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="aspect-[4/3] bg-surface-container-lowest rounded-xl overflow-hidden shadow-2xl">
+          <img alt="Six7 Plumbing team in uniform" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCYVKzP8JqMXK3IVPhtFxSLKXWqzplMlr1VP3tBn8kDhv8eqnOaHC1Q1ToQF92rUHnU081Eo1jvat6wAR1xUWZ64eMUYH4ZxfjJVlJm6xge0rqyD1MNMHO63CFcFFwRQcMmxpp_y4ACbjO117SsdASy7ETKMU2wwFSIPYyJvkIjZCGiQyUHJcHn8va4dJhMCuaEN3sRKR4hU2LkcognOzRtnXrO_qEFVhfYZCiXOXJH_f1OCDQt5-gXMpU8idv2gsyRepDKG9h0JJle">
+        </div>
+        <div class="absolute -bottom-6 -right-6 bg-primary p-6 rounded-xl text-on-primary shadow-xl">
+          <span class="font-headline text-3xl font-black block">5,000+</span>
+          <span class="text-xs uppercase tracking-widest">Jobs Since 2020</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MEET OUR TECHNICIANS -->
+  <section class="py-20 px-6 max-w-7xl mx-auto">
+    <h2 class="font-headline text-4xl font-black uppercase mb-4">Verified Technicians – Not Call Center Agents</h2>
+    <p class="text-on-surface-variant mb-10">Every Six7 technician is ID-checked, background-screened, and arrives in uniform.</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-surface-container-lowest p-6 rounded-xl shadow">
+        <div class="w-20 h-20 rounded-full bg-primary/10 mb-4 flex items-center justify-center"><i class="fas fa-user-tie text-4xl text-primary"></i></div>
+        <h3 class="font-bold text-xl">Nimal • 12+ Years Experience</h3>
+        <p class="text-sm text-on-surface-variant mb-2">Lead Technician</p>
+        <p class="text-sm">Specializes: Leak detection, burst pipe repair, thermal tracing</p>
+        <p class="text-xs text-outline mt-2">Areas: Colombo 1-10, Kotte, Battaramulla</p>
+        <a href="https://wa.me/94758244216?text=TECHNICIAN%20REQUEST%20Nimal" class="mt-4 inline-block text-secondary font-bold text-sm"><i class="fab fa-whatsapp"></i> Request Nimal</a>
+      </div>
+      <div class="bg-surface-container-lowest p-6 rounded-xl shadow">
+        <div class="w-20 h-20 rounded-full bg-primary/10 mb-4 flex items-center justify-center"><i class="fas fa-bolt text-4xl text-primary"></i></div>
+        <h3 class="font-bold text-xl">Saman • 24/7 On-Call</h3>
+        <p class="text-sm text-on-surface-variant mb-2">Emergency Specialist</p>
+        <p class="text-sm">Specializes: Flood control, sewer backup, no-water diagnostics</p>
+        <p class="text-xs text-outline mt-2">Areas: Maharagama, Kaduwela, Piliyandala</p>
+        <a href="https://wa.me/94758244216?text=TECHNICIAN%20REQUEST%20Saman" class="mt-4 inline-block text-secondary font-bold text-sm"><i class="fab fa-whatsapp"></i> Request Saman</a>
+      </div>
+      <div class="bg-surface-container-lowest p-6 rounded-xl shadow">
+        <div class="w-20 h-20 rounded-full bg-primary/10 mb-4 flex items-center justify-center"><i class="fas fa-tools text-4xl text-primary"></i></div>
+        <h3 class="font-bold text-xl">Kasun • Bathroom & Tank Specialist</h3>
+        <p class="text-sm text-on-surface-variant mb-2">Installation Expert</p>
+        <p class="text-sm">Specializes: Geyser install, tank fitting, tile-safe plumbing</p>
+        <p class="text-xs text-outline mt-2">Areas: Homagama, Pitipana, Boralesgamuwa</p>
+        <a href="https://wa.me/94758244216?text=TECHNICIAN%20REQUEST%20Kasun" class="mt-4 inline-block text-secondary font-bold text-sm"><i class="fab fa-whatsapp"></i> Request Kasun</a>
+      </div>
+    </div>
+    <div class="mt-8 text-center">
+      <a href="https://wa.me/94758244216?text=TECHNICIAN%20REQUEST%20Colombo" class="inline-flex items-center gap-2 text-primary font-bold"><i class="fab fa-whatsapp"></i> Request a Specific Technician</a>
+    </div>
+  </section>
+
+  <!-- BY THE NUMBERS -->
+  <section class="py-16 bg-surface-container-low">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="font-headline text-3xl font-black uppercase mb-10 text-center">Six7 Plumbing in Numbers</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div><span class="block text-5xl font-black text-primary">5,000+</span><span class="text-sm uppercase tracking-widest">Jobs Completed</span></div>
+        <div><span class="block text-5xl font-black text-primary">38</span><span class="text-sm uppercase tracking-widest">Avg. Arrival (mins)</span></div>
+        <div><span class="block text-5xl font-black text-primary">4.9★</span><span class="text-sm uppercase tracking-widest">Google Rating</span></div>
+        <div><span class="block text-5xl font-black text-primary">94%</span><span class="text-sm uppercase tracking-widest">First-Visit Fix</span></div>
+      </div>
+      <p class="text-xs text-center text-outline mt-4">All stats verified. Reviews sourced from Google Business Profile. Updated monthly.</p>
+    </div>
+  </section>
+
+  <!-- OUR GUARANTEES -->
+  <section class="py-20 px-6 max-w-7xl mx-auto">
+    <div class="flex flex-wrap justify-between items-center mb-8">
+      <h2 class="font-headline text-3xl font-black uppercase">What You Get With Every Six7 Job</h2>
+      <a href="tel:+94758244216" class="text-primary font-bold"><i class="fas fa-headset"></i> Speak to Dispatcher</a>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div class="bg-surface-container-lowest p-5 rounded-lg"><i class="fas fa-check-circle text-secondary mb-2"></i><h4 class="font-bold">Pay After Service</h4><p class="text-sm">You only pay when job is done and you're satisfied.</p></div>
+      <div class="bg-surface-container-lowest p-5 rounded-lg"><i class="fas fa-check-circle text-secondary mb-2"></i><h4 class="font-bold">No Callout Fee (If Unfixable)</h4><p class="text-sm">Diagnostic fee waived if you proceed with repair.</p></div>
+      <div class="bg-surface-container-lowest p-5 rounded-lg"><i class="fas fa-check-circle text-secondary mb-2"></i><h4 class="font-bold">6-Month Warranty on Labor</h4><p class="text-sm">If it leaks again, we return free within 6 months.</p></div>
+      <div class="bg-surface-container-lowest p-5 rounded-lg"><i class="fas fa-check-circle text-secondary mb-2"></i><h4 class="font-bold">Verified ID on Arrival</h4><p class="text-sm">Every tech shows photo ID + uniform.</p></div>
+      <div class="bg-surface-container-lowest p-5 rounded-lg"><i class="fas fa-check-circle text-secondary mb-2"></i><h4 class="font-bold">Transparent Hourly Billing</h4><p class="text-sm">Quote confirmed before work. No hidden fees.</p></div>
+      <div class="bg-surface-container-lowest p-5 rounded-lg"><i class="fas fa-check-circle text-secondary mb-2"></i><h4 class="font-bold">Parts Available / BYO</h4><p class="text-sm">We carry common parts. Labor-only rate if you supply.</p></div>
+    </div>
+  </section>
+
+  <!-- SERVICE AREA COVERAGE -->
+  <section class="py-16 bg-surface-dim px-6">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="font-headline text-3xl font-black uppercase mb-6">Proudly Serving Colombo & Western Province</h2>
+      <div class="flex flex-wrap gap-3 mb-6">
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">Colombo 1-15</span><span class="bg-white px-4 py-2 rounded-full shadow-sm">Kotte</span><span class="bg-white px-4 py-2 rounded-full shadow-sm">Battaramulla</span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">Maharagama</span><span class="bg-white px-4 py-2 rounded-full shadow-sm">Kaduwela</span><span class="bg-white px-4 py-2 rounded-full shadow-sm">Piliyandala</span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">Homagama</span><span class="bg-white px-4 py-2 rounded-full shadow-sm">Pitipana</span><span class="bg-white px-4 py-2 rounded-full shadow-sm">Boralesgamuwa</span>
+        <span class="bg-white px-4 py-2 rounded-full shadow-sm">Negombo (on request)</span>
+      </div>
+      <p class="text-sm">Live outside these areas? <a href="https://wa.me/94758244216?text=AREA%20CHECK" class="text-secondary font-bold">WhatsApp us</a> – we may still help.</p>
+      <a href="/areas" class="mt-6 inline-block bg-primary text-on-primary px-6 py-3 rounded-lg font-bold"><i class="fas fa-map-marked-alt mr-2"></i>Check ETA for Your Suburb</a>
+    </div>
+  </section>
+
+  <!-- CONTACT / TEAM INQUIRY FORM -->
+  <section class="py-16 px-6 max-w-3xl mx-auto">
+    <h2 class="font-headline text-2xl font-black uppercase text-center mb-6">Have a Question for Our Team?</h2>
+    <form action="https://formsubmit.co/pforms@six7.lk" method="POST" class="bg-white p-8 rounded-xl shadow-lg space-y-5">
+      <input type="hidden" name="_subject" value="About Page Inquiry">
+      <input type="hidden" name="_next" value="/thank-you">
+      <input type="hidden" name="_autoresponse" value="Thanks! Our team will WhatsApp you within 15 mins.">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="text" name="name" placeholder="Full Name *" required class="p-3 border rounded w-full">
+        <input type="tel" name="phone" placeholder="Phone/WhatsApp *" required class="p-3 border rounded w-full">
+      </div>
+      <input type="text" name="suburb" placeholder="Suburb *" required class="p-3 border rounded w-full">
+      <select name="inquiry_type" class="p-3 border rounded w-full">
+        <option>General Inquiry</option><option>Booking</option><option>Technician Request</option><option>Complaint</option>
+      </select>
+      <textarea name="message" placeholder="Your message" rows="3" class="p-3 border rounded w-full"></textarea>
+      <div class="flex items-start gap-2">
+        <input type="checkbox" required id="agree" class="mt-1">
+        <label for="agree" class="text-sm">I agree to the <a href="/disclaimer" class="text-secondary font-bold">Pricing Policy & Zero-Tolerance Disclaimer</a></label>
+      </div>
+      <button class="w-full bg-primary text-on-primary py-4 rounded-lg font-black text-lg"><i class="fas fa-paper-plane mr-2"></i> SEND TO TEAM</button>
+    </form>
+  </section>
+
+  <!-- FOOTER CTA -->
+  <section class="py-16 bg-blue-900 text-white text-center">
+    <div class="max-w-3xl mx-auto px-6">
+      <h2 class="font-headline text-3xl font-black uppercase mb-4">Ready to Fix Your Plumbing Issue?</h2>
+      <p class="mb-8 text-blue-100">Don't wait for a small leak to become a big problem. WhatsApp or call now – we're standing by 24/7.</p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="https://wa.me/94758244216?text=EMERGENCY%20Colombo" class="bg-secondary text-on-secondary px-8 py-4 rounded-lg font-black"><i class="fab fa-whatsapp mr-2"></i> WhatsApp Emergency Quote</a>
+        <a href="tel:+94758244216" class="bg-white text-primary px-8 py-4 rounded-lg font-black"><i class="fas fa-phone-alt mr-2"></i> Call Now: +94 75 824 4216</a>
+      </div>
+      <p class="text-xs mt-4 text-blue-200">Avg. response time: 90 seconds • No obligation quote</p>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="bg-blue-900 dark:bg-slate-950 w-full py-12 text-white">
+  <div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto gap-8">
+    <div class="font-work-sans font-black tracking-widest uppercase">SIX7 PLUMBING</div>
+    <div class="flex flex-wrap justify-center gap-6">
+      <a class="text-blue-200 hover:text-red-400" href="/">Home</a>
+      <a class="text-blue-200 hover:text-red-400" href="/services">Services</a>
+      <a class="text-blue-200 hover:text-red-400" href="/pricing">Pricing</a>
+      <a class="text-blue-200 hover:text-red-400" href="/areas">Areas</a>
+      <a class="text-blue-200 hover:text-red-400" href="/disclaimer">Disclaimer</a>
+    </div>
+    <div class="text-blue-200 text-sm opacity-80">© 2026 Six7 Plumbing. +94 75 824 4216 | plumbing@six7.lk</div>
+  </div>
+</footer>
+
+<!-- STICKY BOTTOM BAR (mobile) -->
+<div class="sticky-bottom-bar">
+  <a href="tel:+94758244216" class="bg-primary text-white"><i class="fas fa-phone-alt"></i> Call</a>
+  <a href="https://wa.me/94758244216?text=ABOUT%20INQUIRY%20Colombo" class="bg-secondary text-white"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+</div>
+
+<!-- SCHEMA MARKUP -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "AboutPage",
+  "name": "About Six7 Plumbing",
+  "description": "Local Colombo plumbing team since 2020. 24/7 emergency response, verified technicians, transparent hourly billing.",
+  "url": "https://plumbing.six7.lk/about-us/",
+  "mainEntity": {
+    "@type": "PlumbingService",
+    "name": "Six7 Plumbing",
+    "image": "https://plumbing.six7.lk/assets/img/logo.svg",
+    "telephone": "+94758244216",
+    "priceRange": "LKR 3,500 - LKR 18,000",
+    "foundingDate": "2020",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mount Lavinia",
+      "addressRegion": "Western Province",
+      "addressCountry": "LK"
+    },
+    "areaServed": ["Colombo", "Kotte", "Battaramulla", "Maharagama", "Kaduwela", "Piliyandala", "Homagama", "Pitipana", "Boralesgamuwa"],
+    "employee": [
+      {"@type": "Person", "name": "Nimal", "jobTitle": "Lead Technician", "description": "Specializes in leak detection, burst pipe repair, thermal tracing"},
+      {"@type": "Person", "name": "Saman", "jobTitle": "Emergency Specialist", "description": "24/7 on-call for flood control, sewer backup, no-water diagnostics"},
+      {"@type": "Person", "name": "Kasun", "jobTitle": "Installation Expert", "description": "Bathroom & tank specialist, tile-safe plumbing"}
+    ],
+    "aggregateRating": {"@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "500", "bestRating": "5", "worstRating": "1"}
+  }
+}
+</script>
+</body>
+</html>
